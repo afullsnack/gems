@@ -46,8 +46,24 @@ High performance, fully cross browser, full featured drag and drop in a tiny (2k
 npm install draggable --save
 ```
 
+
+### Check password strength
+[Check password strength](https://www.npmjs.com/package/check-password-strength)<br/>
+A simple way to check that password strength of a certain passphrase. A password strength checker based from Javascript RegEx.
+
+```:installation
+npm i check-password-strength --save
+```
+
+
 ## Backend nodejs <a name="nodejs-backend" />
+
+
+
 ## Products (Software and Cloud) <a name="products-software" />
+
+
+
 ## Dev tools (Developer tools) <a name="dev-tools" />
 
 ### Warp terminal (A blazingly fast terminal)
