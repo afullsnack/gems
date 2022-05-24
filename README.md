@@ -58,6 +58,23 @@ npm i check-password-strength --save
 
 ## Backend nodejs <a name="nodejs-backend" />
 
+### NanoId (Generate string ID for js)
+[NanoId](https://www.npmjs.com/package/nanoid)<br/>
+A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
+
+```:installation
+npm install nanoid --save
+```
+
+
+
+### Lowdb (A lightweight local DB)
+[Lowdb](https://www.npmjs.com/package/lowdb)<br/>
+Tiny local JSON database for small projects 🦉
+
+```:installation
+npm install lowdb --save
+```
 
 
 ## Products (Software and Cloud) <a name="products-software" />
