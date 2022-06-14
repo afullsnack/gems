@@ -47,12 +47,33 @@ npm install draggable --save
 ```
 
 
-### Check password strength
+### Check password strength (Check the strength of a password with pre-saved RegEx)
 [Check password strength](https://www.npmjs.com/package/check-password-strength)<br/>
 A simple way to check that password strength of a certain passphrase. A password strength checker based from Javascript RegEx.
 
 ```:installation
 npm i check-password-strength --save
+```
+
+
+### UseAnimation (A collection of animations)
+[react-useanimations](https://github.com/useAnimations/react-useanimations)<br/>
+React-useanimations is a collection of free animated open source icons for React.js.
+
+```:installation
+npm install -S react-useanimations
+````
+
+#### Usage
+```js
+import React from 'react';
+import UseAnimations from 'react-useanimations';
+// EVERY ANIMATION NEEDS TO BE IMPORTED FIRST -> YOUR BUNDLE WILL INCLUDE ONLY WHAT IT NEEDS
+import github from 'react-useanimations/lib/github'
+
+const App = () => <UseAnimations animation={github} />;
+
+export default App;
 ```
 
 
