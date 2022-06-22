@@ -98,6 +98,33 @@ npm install lowdb --save
 ```
 
 
+### tRPC (A lightweight typesafe way to consume API endpoints)
+[tRPC](https://trpc.io)
+tRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.
+
+⚠️ Requirements: tRPC requires TypeScript > 4.1 as it relies on Template Literal Types.
+
+Server installation: For implementing tRPC endpoints and routers. Install in your server codebase.
+```:installation
+npm install @trpc/server
+```
+Client installation: For making typesafe API calls from your client. Install in your client codebase.
+```:installation
+npm install @trpc/client
+```
+
+React app library: For generating a powerful set of React hooks for querying your tRPC API. Powered by react-query.
+```:installation
+npm install @trpc/react react-query
+```
+
+Next.js utitlity library: A set of utilies for integrating tRPC with Next.js.
+```:installation
+npm install @trpc/next
+```
+
+
+
 ## Products (Software and Cloud) <a name="products-software" />
 
 
